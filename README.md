@@ -26,3 +26,8 @@ pre-commit install
 ```
 
 So the git hook will be installed and every check can be perform automatically
+
+Tips generate addons readme
+```
+oca-gen-addon-readme --repo-name=import-export --branch 10.0  --org-name akretion --addons-dir .
+```

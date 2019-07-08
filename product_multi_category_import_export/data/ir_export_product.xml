@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<record id="ir_exp_product_template_export_categories" model="ir.exports">
+    <field name="name">Category Export</field>
+    <field name="resource">product.template</field>
+</record>
+
+<record id="ir_exp_product_template_categ_id" model="ir.exports.line">
+    <field name="name">categ_id</field>
+    <field name="export_id" ref="ir_exp_product_template_export_categories"/>
+</record>
+
+<record id="ir_exp_product_template_categ_secondary_one_id" model="ir.exports.line">
+    <field name="name">categ_secondary_one_id</field>
+    <field name="export_id" ref="ir_exp_product_template_export_categories"/>
+</record>
+
+<record id="ir_exp_product_template_categ_secondary_two_id" model="ir.exports.line">
+    <field name="name">categ_secondary_two_id</field>
+    <field name="export_id" ref="ir_exp_product_template_export_categories"/>
+</record>
+
+<record id="ir_exp_product_template_categ_secondary_three_id" model="ir.exports.line">
+    <field name="name">categ_secondary_three_id</field>
+    <field name="export_id" ref="ir_exp_product_template_export_categories"/>
+</record>
+
+<record id="ir_exp_product_template_categ_secondary_four_id" model="ir.exports.line">
+    <field name="name">categ_secondary_four_id</field>
+    <field name="export_id" ref="ir_exp_product_template_export_categories"/>
+</record>
+
+</odoo>
